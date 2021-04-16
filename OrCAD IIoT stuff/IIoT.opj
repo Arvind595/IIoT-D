@@ -1,0 +1,270 @@
+(ExpressProject "IIoT"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\pic18f57q84.olb"
+        (Type "Schematic Library"))
+      (File ".\lis3dh.olb"
+        (Type "Schematic Library"))
+      (File ".\txb0102.olb"
+        (Type "Schematic Library"))
+      (File ".\sn65hvd233d.olb"
+        (Type "Schematic Library"))
+      (File ".\pesd2canfd24l-t.olb"
+        (Type "Schematic Library"))
+      (File ".\ad8605.olb"
+        (Type "Schematic Library"))
+      (File ".\ref3425s-q1.olb"
+        (Type "Schematic Library"))
+      (File ".\bat54sw.olb"
+        (Type "Schematic Library"))
+      (File ".\tlv766-q1.olb"
+        (Type "Schematic Library"))
+      (File ".\sml522bu1wt86.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\iiot.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (FLDSTUFF_Scope "0")
+    (FLDSTUFF_Action "0")
+    (FLDSTUFF_Report_File ".\iiot.RPT")
+    (FLDSTUFF_Update_File ".\iiot.UPD")
+    (FLDSTUFF__Uppercase_Result_Property "FALSE")
+    (FLDSTUFF_Uppercase_Update_Property "FALSE")
+    (FLDSTUFF_Uppercase_Unconditionally "FALSE")
+    (FLDSTUFF_Visibility "0")
+    (FLDSTUFF_inst_or_occurrence "0")
+    (FLDSTUFF_Create_Report_File "FALSE")
+    (Board_sim_option "VHDL_flow")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "IIOT.NET")
+    (OTHER_Netlist_File2 "IIOT.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orVectron.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\ARVIND\ORCAD WORKSPACE\IIOT.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "C:\ARVIND\ORCAD WORKSPACE\IIOT.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "TRUE"))
+  (Folder "Outputs"
+    (File ".\iiot.net"
+      (Type "Report"))
+    (File ".\iiot.cmp"
+      (Type "Report"))
+    (File ".\iiot.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (SML522BU1WT86
+      (FullPartName "SML522BU1WT86.Normal")
+      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\SML522BU1WT86.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE TVS"
+      (FullPartName "DIODE TVS.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PTC
+      (FullPartName "PTC.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TLV766-Q1
+      (FullPartName "TLV766-Q1.Normal")
+      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\TLV766-Q1.OLB")
+      (DeviceIndex "0"))
+    ("CONN PLUG 4"
+      (FullPartName "CONN PLUG 4.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (BAT54SW
+      (FullPartName "BAT54SW.Normal")
+      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\BAT54SW.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (REF3425S-Q1
+      (FullPartName "REF3425S-Q1.Normal")
+      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\REF3425S-Q1.OLB")
+      (DeviceIndex "0"))
+    ("CONN PLUG 2"
+      (FullPartName "CONN PLUG 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (AD8605
+      (FullPartName "AD8605.Normal")
+      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\AD8605.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 3"
+      (FullPartName "HEADER 3.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TXB0102
+      (FullPartName "TXB0102.Normal")
+      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\TXB0102.OLB")
+      (DeviceIndex "0"))
+    (PESD2CANFD24L-T
+      (FullPartName "PESD2CANFD24L-T.Normal")
+      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\PESD2CANFD24L-T.OLB")
+      (DeviceIndex "0"))
+    (DIPSOC-7x2/SM
+      (FullPartName "DIPSOC-7x2/SM.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\MECHANICAL.OLB")
+      (DeviceIndex "0"))
+    ("4 HEADER"
+      (FullPartName "4 HEADER.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SN65HVD233D
+      (FullPartName "SN65HVD233D.Normal")
+      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\SN65HVD233D.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.6\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\iiot.dsn")
+      (Path "Design Resources" ".\iiot.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -9 -38 0 200 0 404"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 32 1620 32 576")
+        (Scroll "-182 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 64 1652 64 608")
+        (Scroll "-235 0")
+        (Zoom "91")
+        (Occurrence "/"))
+      (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 128 1716 128 672")
+        (Scroll "-235 0")
+        (Zoom "91")
+        (Occurrence "/"))
+      (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CAN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 160 1748 160 704")
+        (Scroll "-182 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "VIBRATION SENSOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 192 1780 192 736")
+        (Scroll "189 295")
+        (Zoom "182")
+        (Occurrence "/"))
+      (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CURRENT SENSOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 224 1812 224 768")
+        (Scroll "-235 0")
+        (Zoom "91")
+        (Occurrence "/"))
+      (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "UART"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 224 1812 224 768"))
+      (Path "c:\arvind\orcad workspace\iiot.bom")
+      (Scroll "3")))
+  (MPSSessionName "Aravind Anirudh")
+  (ISPCBBASICLICENSE "false"))

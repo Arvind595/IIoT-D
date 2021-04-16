@@ -1,0 +1,71 @@
+*+3.3V        R2 1 J1 2 R3 2 R4 2 R5 2 R6 1 R9 1 R10 1
+              R11 1 R8 1 RT2 1 RT1 1 RT3 1 R16 1 R17 1 R18 1
+              R19 1 R20 1 R21 1 R22 1 RT4 1 R24 2 R25 2 RT5 1
+              U7 4 C15 2 U8 2 J8 1
+*ADC_IN       U1 21 R30 2 C14 2 U8 3
+*B0           U1 36
+*B0_13709     J4 14 R16 2
+*B1           U1 37
+*B1_13709     J4 13 R17 2
+*B2           U1 38
+*B2_13709     J4 12 R18 2
+*B3           U1 39
+*B3_13709     J4 11 R19 2
+*B4           U1 12
+*B4_13709     J4 10 R20 2
+*B5           U1 13
+*B5_13709     J4 9 R21 2
+*B6           U1 14
+*B6_13709     J4 8 R22 2
+*CAN_H        U4 2 J7 3
+*CAN_H_11359  U3 7 R13 1
+*CAN_L        U4 1 J7 4
+*CAN_L_11359  U3 6 R14 1
+*CAN_RX       U1 11 U3 8
+*CAN_TX       U1 8 U3 1
+*GND          U1 7 U1 30 U1 0 C1 2 C2 2 C3 2 C4 2 C5 2
+              J2 2 C6 2 U2 5 U2 10 U2 12 C8 2 C7 2 U3 2
+              R12 2 C9 2 C10 2 R15 2 J4 1 J4 2 J4 3 J4 4
+              J4 5 J4 6 J4 7 U4 3 U5 2 C11 2 C12 2 R23 1
+              J5 3 U6 2 J6 1 R26 2 R27 2 C13 1 C14 1 U7 1
+              C15 1 C16 2 R31 1 U8 1 J7 2 U9 4 U9 6 U9 0
+              R33 2 C17 2 C18 2 D4 2 R7 1
+*ICSPCLK      U1 18 J1 5 R4 1
+*ICSPDAT      U1 19 J1 4 R5 1
+*INE_INT1     U1 9 U2 11 R10 2
+*INE_INT2     U1 10 U2 9 R11 2
+*LBK          U1 15
+*LBK_11359    U3 5 R15 1
+*LED_GREEN    U1 4 U10 4
+*LED_RED      U1 3 U10 2
+*MCLR#        U1 20 R1 2 J1 1
+*N00405       U1 6 U1 31 C1 1 C2 1 C3 1 C4 1 RT1 2
+*N01172       C5 1 R1 1 R2 2 J2 1
+*N02165       R3 1 U10 1 U10 3
+*N046496      U2 7 R7 2
+*N04726       U2 1 U2 14 C8 1 RT2 2 C7 1
+*N05413       U2 8 R6 2
+*N113593      U3 4 R12 1
+*N12572       U3 VCC RT3 2 C9 1
+*N12768       R13 2 R14 2 C10 1
+*N19059       U5 3 U5 7 RT4 2 C11 1 C12 1
+*N19932       J6 2 D3 1
+*N19991       U6 3 D3 2 R26 1
+*N20188       U6 4 R27 1 R28 1 R29 2
+*N20208       U6 1 R28 2 R30 1
+*N20289       U6 5 RT5 2 C13 2
+*N29223       U9 5 U9 8 C18 1 D4 1 D5 2
+*N30519       U9 1 R32 1 C17 1 J8 2
+*N31466       D5 1 RT6 2
+*N41685       U9 3 R32 2 R33 1
+*RX           U5 1 R25 1 J5 2
+*SCL          U1 41 U2 4 R8 2
+*SDA          U1 46 U2 6 R9 2
+*TX           U5 8 R24 1 J5 1
+*UART_OE      U1 5 U5 6 R23 2
+*UART_RX      U1 43 U5 4
+*UART_TX      U1 42 U5 5
+*VCC_SUPPLY   J7 1 RT6 1
+*VREF+2.5V    U1 24 R29 1 U7 6 C16 1
+*VREF_EN      U1 2 U7 3 R31 2
+*VSS          J1 3 C6 1
