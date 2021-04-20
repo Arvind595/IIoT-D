@@ -1,10 +1,10 @@
 (PCB IIOT
  (description
-  (timeStamp "2021 04 11 05 17 29")
+  (timeStamp "2021 04 20 06 55 24")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "vibration_sensor")
-  (date "Friday, April 09, 2021")
+  (date "Tuesday, April 20, 2021")
   (document "01")
   (revision "v1.0")
   (organization "")
@@ -20,409 +20,553 @@
    (place U8
     (property 
      (timestamp 00006196)
+     (description "Schottky barrier diodes")
+     (MANUFACTURER Nexperia)
      ("Source Package" BAT54SW)
+     (MFG.PART.NUMBER BAT54SW)
+     (PACKAGE SOT323)
      (Value BAT54SW))))
   (component "HEADER 6/SM"
    (place J1
     (property 
      (timestamp 00000515)
+     (description "6PIN MALE HEADER")
      ("Source Package" "HEADER 6/SM")
+     (PACKAGE TH)
      (Value "HEADER 2.54mm"))))
   (component "PESD2CANFD24L-T"
    (place U4
     (property 
      (timestamp 00004706)
+     (MANUFACTURER "PESD2CANFD24L-TR")
+     (description "protection diodes for CAN")
      ("Source Package" "PESD2CANFD24L-T")
+     (MFG.PART.NUMBER "PESD2CANFD24L-T")
+     (PACKAGE SOT23)
      (Value "PESD2CANFD24L-T"))))
   (component "DIODE SCHOTTKY"
    (place D3
     (property 
      (timestamp 00004DC8)
+     (MANUFACTURER microsemi)
+     (description "schottky diode")
      ("Source Package" "DIODE SCHOTTKY")
+     (MFG.PART.NUMBER LSM115JE3/TR13)
+     (PACKAGE "D0-214BA")
      (Value LSM115JE3/TR13)))
    (place D5
     (property 
      (timestamp 000079C8)
+     (description "SCHOTTKY DIODE")
      ("Source Package" "DIODE SCHOTTKY")
      (Value STPS2L25U))))
   (component "CAP NP"
    (place C1
     (property 
      (timestamp 000001C3)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 100nF/10V)))
    (place C2
     (property 
      (timestamp 000001D3)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 100nF/10V)))
    (place C3
     (property 
      (timestamp 00000298)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 1nF/10V)))
    (place C4
     (property 
      (timestamp 000002A8)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 1nF/10V)))
    (place C5
     (property 
      (timestamp 00000407)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value "100nF/10V [DNP]")))
    (place C6
     (property 
      (timestamp 000005E4)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 100nF/10V)))
    (place C7
     (property 
      (timestamp 00002BF9)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 100nF/10V)))
    (place C8
     (property 
      (timestamp 000012A7)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 10nF/10V)))
    (place C9
     (property 
      (timestamp 00003136)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 100nF/10V)))
    (place C10
     (property 
      (timestamp 000031F8)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 4.7nF/50V)))
    (place C11
     (property 
      (timestamp 00004ACC)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 100nF/10V)))
    (place C12
     (property 
      (timestamp 00004ADC)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 100nF/10V)))
    (place C13
     (property 
      (timestamp 00004F69)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 100nF/10V)))
    (place C14
     (property 
      (timestamp 00004FB8)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 4.7nF/10V)))
    (place C15
     (property 
      (timestamp 0000508D)
+     (description CAPACITOR)
      ("Source Package" "CAP NP")
      (Value 1uF/10V))))
   (component "TLV766-Q1"
    (place U9
     (property 
      (timestamp 00006860)
+     (MANUFACTURER "TLV767EVM-014")
+     (description "500mA LDO")
      ("Source Package" "TLV766-Q1")
+     (MFG.PART.NUMBER "TLV767EVM-014")
+     (PACKAGE "VSON (8)")
      (Value "TLV766-Q1"))))
   (component LIS3DH
    (place U2
     (property 
      (timestamp 00001229)
+     (description "3AXIS ACCELEROMETER")
+     (MANUFACTURER STMicroelectronics)
      ("Source Package" LIS3DH)
+     (MFG.PART.NUMBER LIS3DHTR)
+     (PACKAGE "LGA-16")
      (Value LIS3DH))))
   (component TXB0102
    (place U5
     (property 
      (timestamp 00004A4F)
+     (MANUFACTURER "Texas Instruments")
+     (description "2 2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing")
      ("Source Package" TXB0102)
+     (MFG.PART.NUMBER TXB0102YZPR)
+     (PACKAGE "DSBGA (8)")
      (Value TXB0102))))
   (component AD8605
    (place U6
     (property 
      (timestamp 00004D85)
+     (description "Precision, Low Noise, CMOS, Rail-to-Rail, Input/Output Operational Amplifiers")
+     (MANUFACTURER "Analog Devices Inc")
      ("Source Package" AD8605)
+     (MFG.PART.NUMBER "AD8605ACBZ-REEL7")
+     (PACKAGE "5-XFBGA")
      (Value AD8605))))
   (component SML522BU1WT86
    (place U10
     (property 
      (timestamp 0000E5D0)
+     (MANUFACTURER "ROHM Semiconductor")
+     (description "2COLOUR LED")
      ("Source Package" SML522BU1WT86)
+     (MFG.PART.NUMBER SML522BU1WT86)
+     (PACKAGE "0605 (1513 Metric)")
      (Value SML522BU1WT86))))
   (component "DIODE TVS"
    (place D4
     (property 
      (timestamp 000079AF)
+     (description "TVS DIODE")
+     (MANUFACTURER "DIODES incorporated")
      ("Source Package" "DIODE TVS")
+     (MFG.PART.NUMBER "D12V0H1U2LP1610-7")
+     (PACKAGE "0603 (1610 Metric)")
      (Value "D12V0H1U2LP1610-7"))))
   (component "HEADER 2"
    (place J2
     (property 
      (timestamp 0000052E)
+     (description "2PIN MALE HEADER")
      ("Source Package" "HEADER 2")
+     (PACKAGE TH)
      (Value "HEADER 2.54mm")))
    (place J8
     (property 
      (timestamp 0000779C)
+     (description "2PIN MALE HEADER")
      ("Source Package" "HEADER 2")
+     (PACKAGE TH)
      (Value "JUMPER 2.54mm"))))
   (component "HEADER 3"
    (place J5
     (property 
      (timestamp 00004CA1)
+     (description "3PIN MALE HEADER")
      ("Source Package" "HEADER 3")
+     (PACKAGE TH)
      (Value "HEADER 2.54mm"))))
   (component PTC
    (place RT1
     (property 
      (timestamp 0000216B)
+     (MANUFACTURER "EPCOS - TDK Electronics")
+     (description PTC)
      ("Source Package" PTC)
+     (MFG.PART.NUMBER B59622A0090A062)
+     (PACKAGE 603)
      (Value B59622A0090A062)))
    (place RT2
     (property 
      (timestamp 00002020)
+     (description PTC)
+     (MANUFACTURER "little fuses Inc.")
      ("Source Package" PTC)
+     (MFG.PART.NUMBER ZEPTOSMDC0011F)
+     (PACKAGE "0201 (0603 Metric)")
      (Value ZEPTOSMDC0011F)))
    (place RT3
     (property 
      (timestamp 00003111)
+     (description PTC)
+     (MANUFACTURER "little fuses Inc.")
      ("Source Package" PTC)
+     (MFG.PART.NUMBER "FEMTOSMDC005F-02")
+     (PACKAGE "0603 (1608 metric)")
      (Value "FEMTOSMDC005F-02")))
    (place RT4
     (property 
      (timestamp 00004A97)
+     (MANUFACTURER "little fuses Inc.")
+     (description PTC)
      ("Source Package" PTC)
+     (MFG.PART.NUMBER ZEPTOSMDC0011F)
+     (PACKAGE "0201 (0603 Metric)")
      (Value ZEPTOSMDC0011F)))
    (place RT5
     (property 
      (timestamp 00004F3B)
+     (description PTC)
+     (MANUFACTURER "Bel Fuse Inc.")
      ("Source Package" PTC)
+     (MFG.PART.NUMBER ZEPTOSMDC0011F)
+     (PACKAGE "1812 (4532 Metric)")
      (Value ZEPTOSMDC0011F)))
    (place RT6
     (property 
      (timestamp 000079F1)
+     (MANUFACTURER "Bel Fuse Inc.")
+     (description PTC)
      ("Source Package" PTC)
+     (MFG.PART.NUMBER 0ZCG0030FF2C)
+     (PACKAGE "1812 (4532 Metric)")
      (Value 0ZCG0030FF2C))))
   (component "CONN PLUG 2"
    (place J6
     (property 
      (timestamp 00004DA6)
+     (description "2.54mm 2pin male header")
+     (MANUFACTURER "On Shore Technology Inc")
      ("Source Package" "CONN PLUG 2")
+     (MFG.PART.NUMBER OSTVN02A150)
+     (PACKAGE TH)
      (Value OSTVN02A150))))
   (component RESISTOR
    (place R25
     (property 
      (timestamp 00004BF6)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 50K/63mW)))
    (place R26
     (property 
      (timestamp 00004E11)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 120E/1/10W)))
    (place R27
     (property 
      (timestamp 00004E63)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 124K/63mW)))
    (place R28
     (property 
      (timestamp 00004E7D)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 1K/63mW)))
    (place R29
     (property 
      (timestamp 00004E97)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 5.11K/63mW)))
    (place R30
     (property 
      (timestamp 00004EB1)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 51E/63mW)))
    (place R1
     (property 
      (timestamp 0000046E)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 100R/63mW)))
    (place R31
     (property 
      (timestamp 000060C0)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R2
     (property 
      (timestamp 000004B4)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R32
     (property 
      (timestamp 00007257)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 160K/63mW)))
    (place R3
     (property 
      (timestamp 0000086F)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 270R/63mW)))
    (place R33
     (property 
      (timestamp 00007267)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 500K/63mW)))
    (place R4
     (property 
      (timestamp 000009B4)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value "10K/63mW [DNP]")))
    (place R5
     (property 
      (timestamp 000009CE)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value "10K/63mW [DNP]")))
    (place R6
     (property 
      (timestamp 0000150F)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R7
     (property 
      (timestamp 00009B56)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value "0E [DNP]")))
    (place R8
     (property 
      (timestamp 00001A1D)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R9
     (property 
      (timestamp 000015A2)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R10
     (property 
      (timestamp 00001746)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R11
     (property 
      (timestamp 0000176F)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R12
     (property 
      (timestamp 00003092)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R13
     (property 
      (timestamp 000031AA)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 60.4E/0.25W)))
    (place R14
     (property 
      (timestamp 000031C4)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 60.4E/0.25W)))
    (place R15
     (property 
      (timestamp 000034FB)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R16
     (property 
      (timestamp 000036C4)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R17
     (property 
      (timestamp 000036DE)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R18
     (property 
      (timestamp 000036F8)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R19
     (property 
      (timestamp 00003712)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R20
     (property 
      (timestamp 0000372C)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R21
     (property 
      (timestamp 00003746)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R22
     (property 
      (timestamp 00003760)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R23
     (property 
      (timestamp 00004B4F)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 10K/63mW)))
    (place R24
     (property 
      (timestamp 00004BDC)
+     (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value 50K/63mW))))
   (component CAPACITOR
    (place C17
     (property 
      (timestamp 0000774E)
+     (description CAPACITOR)
      ("Source Package" CAPACITOR)
      (Value 10uF/10V)))
    (place C18
     (property 
      (timestamp 0000788E)
+     (description CAPACITOR)
      ("Source Package" CAPACITOR)
      (Value 10uF/25V))))
   (component CAP
    (place C16
     (property 
      (timestamp 000050C0)
+     (description CAPACITOR)
      ("Source Package" CAP)
      (Value 10uF/10V))))
   (component "DIPSOC-7x2/SM"
    (place J4
     (property 
      (timestamp 0000358D)
+     (MANUFACTURER "Omron Electronics Inc")
+     (description "DIP SWITCHES")
      ("Source Package" "DIPSOC-7x2/SM")
+     (MFG.PART.NUMBER "A6SN-7101-P")
+     (PACKAGE "Surface Mount low profile")
      (Value "DIPSOC-7x2/SM A6SN-7101-P"))))
   (component "REF3425S-Q1"
    (place U7
     (property 
      (timestamp 00005002)
+     (description "Low-Drift, Low-Power, Small-Footprint Series Voltage References")
+     (MANUFACTURER "Texas Instruments")
      ("Source Package" "REF3425S-Q1")
+     (MFG.PART.NUMBER REF3425QDBVRQ1)
+     (PACKAGE "SOT-23 (6)")
      (Value "REF3425-Q1"))))
   (component SN65HVD233D
    (place U3
     (property 
      (timestamp 00002C5F)
+     (description "3.3V CAN BUS TRANSCEIVER")
+     (MANUFACTURER "Texas Instruments")
      ("Source Package" SN65HVD233D)
+     (MFG.PART.NUMBER SN65HVD233D)
+     (PACKAGE "SOIC (8)")
      (Value SN65HVD233D))))
   (component "CONN PLUG 4"
    (place J7
     (property 
      (timestamp 00006353)
+     (description "2.54mm 4PIN SCREW TERMINAL")
+     (MANUFACTURER "On Shore Technology Inc")
      ("Source Package" "CONN PLUG 4")
+     (MFG.PART.NUMBER OSTVN04A150)
+     (PACKAGE TH)
      (Value OSTVN04A150))))
   (component PIC18F57Q84
    (place U1
     (property 
      (timestamp 0000014B)
+     (description "8BIT MICROCONTROLLER")
+     (MANUFACTURER "Microchip Technology")
      ("Source Package" PIC18F57Q84)
+     (MFG.PART.NUMBER "PIC18F57Q84T-I/PT")
+     (PACKAGE "TQFP(48)")
      (Value PIC18F57Q84)))))
  (library
   (image RESISTOR
@@ -1215,7 +1359,7 @@
      (Number 4)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" N113593)
+     ("Net Name" CAN_RX)
      (Order 3)
      ("Is No Connect" False)))
    (pin 999 8
@@ -1226,7 +1370,7 @@
      (Number 8)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" CAN_RX)
+     ("Net Name" N113594)
      (Order 4)
      ("Is No Connect" False)))
    (pin 999 7
@@ -2248,7 +2392,7 @@
      U3-6 R14-1))
   (net CAN_RX
    (pins
-     U1-11 U3-8))
+     U1-11 U3-4))
   (net CAN_TX
    (pins
      U1-8 U3-1))
@@ -2307,9 +2451,9 @@
   (net N05413
    (pins
      U2-8 R6-2))
-  (net N113593
+  (net N113594
    (pins
-     U3-4 R12-1))
+     U3-8 R12-1))
   (net N12572
    (pins
      U3-VCC RT3-2 C9-1))

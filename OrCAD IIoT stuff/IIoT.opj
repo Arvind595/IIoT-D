@@ -90,15 +90,15 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (SML522BU1WT86
-      (FullPartName "SML522BU1WT86.Normal")
-      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\SML522BU1WT86.OLB")
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-R
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (SML522BU1WT86
+      (FullPartName "SML522BU1WT86.Normal")
+      (LibraryName "C:\ARVIND\ORCAD WORKSPACE\SML522BU1WT86.OLB")
       (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -191,7 +191,6 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\iiot.dsn")
-      (Path "Design Resources" ".\iiot.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs"))
     (HierarchyView)
@@ -204,7 +203,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 32 1620 32 576")
-        (Scroll "-182 0")
+        (Scroll "-184 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
@@ -214,7 +213,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 64 1652 64 608")
-        (Scroll "-235 0")
+        (Scroll "-237 0")
         (Zoom "91")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
@@ -224,8 +223,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 128 1716 128 672")
-        (Scroll "-235 0")
-        (Zoom "91")
+        (Scroll "665 677")
+        (Zoom "364")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
       (Schematic "SCHEMATIC1")
@@ -234,7 +233,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 160 1748 160 704")
-        (Scroll "-182 0")
+        (Scroll "-184 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
@@ -244,8 +243,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 192 1780 192 736")
-        (Scroll "189 295")
-        (Zoom "182")
+        (Scroll "136 121")
+        (Zoom "144")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
       (Schematic "SCHEMATIC1")
@@ -254,7 +253,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -9 -38 224 1812 224 768")
-        (Scroll "-235 0")
+        (Scroll "-237 0")
         (Zoom "91")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
@@ -263,8 +262,8 @@
     (Doc
       (Type "TextFile")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 224 1812 224 768"))
-      (Path "c:\arvind\orcad workspace\iiot.bom")
-      (Scroll "3")))
+        (Placement "44 0 1 -1 -1 -9 -38 0 1588 0 544"))
+      (Path "c:\arvind\orcad workspace\iiot.net")
+      (Scroll "0")))
   (MPSSessionName "Aravind Anirudh")
   (ISPCBBASICLICENSE "false"))
