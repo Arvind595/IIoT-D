@@ -1,10 +1,10 @@
 (PCB IIOT
  (description
-  (timeStamp "2021 04 20 06 55 24")
+  (timeStamp "2021 04 22 16 21 23")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "vibration_sensor")
-  (date "Tuesday, April 20, 2021")
+  (date "Thursday, April 22, 2021")
   (document "01")
   (revision "v1.0")
   (organization "")
@@ -20,8 +20,8 @@
    (place U8
     (property 
      (timestamp 00006196)
-     (description "Schottky barrier diodes")
      (MANUFACTURER Nexperia)
+     (description "Schottky barrier diodes")
      ("Source Package" BAT54SW)
      (MFG.PART.NUMBER BAT54SW)
      (PACKAGE SOT323)
@@ -38,8 +38,8 @@
    (place U4
     (property 
      (timestamp 00004706)
-     (MANUFACTURER "PESD2CANFD24L-TR")
      (description "protection diodes for CAN")
+     (MANUFACTURER "PESD2CANFD24L-TR")
      ("Source Package" "PESD2CANFD24L-T")
      (MFG.PART.NUMBER "PESD2CANFD24L-T")
      (PACKAGE SOT23)
@@ -155,8 +155,8 @@
    (place U9
     (property 
      (timestamp 00006860)
-     (MANUFACTURER "TLV767EVM-014")
      (description "500mA LDO")
+     (MANUFACTURER "TLV767EVM-014")
      ("Source Package" "TLV766-Q1")
      (MFG.PART.NUMBER "TLV767EVM-014")
      (PACKAGE "VSON (8)")
@@ -165,8 +165,8 @@
    (place U2
     (property 
      (timestamp 00001229)
-     (description "3AXIS ACCELEROMETER")
      (MANUFACTURER STMicroelectronics)
+     (description "3AXIS ACCELEROMETER")
      ("Source Package" LIS3DH)
      (MFG.PART.NUMBER LIS3DHTR)
      (PACKAGE "LGA-16")
@@ -175,8 +175,8 @@
    (place U5
     (property 
      (timestamp 00004A4F)
-     (MANUFACTURER "Texas Instruments")
      (description "2 2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing")
+     (MANUFACTURER "Texas Instruments")
      ("Source Package" TXB0102)
      (MFG.PART.NUMBER TXB0102YZPR)
      (PACKAGE "DSBGA (8)")
@@ -195,8 +195,8 @@
    (place U10
     (property 
      (timestamp 0000E5D0)
-     (MANUFACTURER "ROHM Semiconductor")
      (description "2COLOUR LED")
+     (MANUFACTURER "ROHM Semiconductor")
      ("Source Package" SML522BU1WT86)
      (MFG.PART.NUMBER SML522BU1WT86)
      (PACKAGE "0605 (1513 Metric)")
@@ -205,8 +205,8 @@
    (place D4
     (property 
      (timestamp 000079AF)
-     (description "TVS DIODE")
      (MANUFACTURER "DIODES incorporated")
+     (description "TVS DIODE")
      ("Source Package" "DIODE TVS")
      (MFG.PART.NUMBER "D12V0H1U2LP1610-7")
      (PACKAGE "0603 (1610 Metric)")
@@ -238,8 +238,8 @@
    (place RT1
     (property 
      (timestamp 0000216B)
-     (MANUFACTURER "EPCOS - TDK Electronics")
      (description PTC)
+     (MANUFACTURER "EPCOS - TDK Electronics")
      ("Source Package" PTC)
      (MFG.PART.NUMBER B59622A0090A062)
      (PACKAGE 603)
@@ -247,8 +247,8 @@
    (place RT2
     (property 
      (timestamp 00002020)
-     (description PTC)
      (MANUFACTURER "little fuses Inc.")
+     (description PTC)
      ("Source Package" PTC)
      (MFG.PART.NUMBER ZEPTOSMDC0011F)
      (PACKAGE "0201 (0603 Metric)")
@@ -256,8 +256,8 @@
    (place RT3
     (property 
      (timestamp 00003111)
-     (description PTC)
      (MANUFACTURER "little fuses Inc.")
+     (description PTC)
      ("Source Package" PTC)
      (MFG.PART.NUMBER "FEMTOSMDC005F-02")
      (PACKAGE "0603 (1608 metric)")
@@ -265,8 +265,8 @@
    (place RT4
     (property 
      (timestamp 00004A97)
-     (MANUFACTURER "little fuses Inc.")
      (description PTC)
+     (MANUFACTURER "little fuses Inc.")
      ("Source Package" PTC)
      (MFG.PART.NUMBER ZEPTOSMDC0011F)
      (PACKAGE "0201 (0603 Metric)")
@@ -283,8 +283,8 @@
    (place RT6
     (property 
      (timestamp 000079F1)
-     (MANUFACTURER "Bel Fuse Inc.")
      (description PTC)
+     (MANUFACTURER "Bel Fuse Inc.")
      ("Source Package" PTC)
      (MFG.PART.NUMBER 0ZCG0030FF2C)
      (PACKAGE "1812 (4532 Metric)")
@@ -378,6 +378,11 @@
      (description RESISTOR)
      ("Source Package" RESISTOR)
      (Value "10K/63mW [DNP]")))
+   (place R34
+    (property 
+     (timestamp 0001132A)
+     ("Source Package" RESISTOR)
+     (Value 470R/63mW)))
    (place R5
     (property 
      (timestamp 000009CE)
@@ -522,8 +527,8 @@
    (place J4
     (property 
      (timestamp 0000358D)
-     (MANUFACTURER "Omron Electronics Inc")
      (description "DIP SWITCHES")
+     (MANUFACTURER "Omron Electronics Inc")
      ("Source Package" "DIPSOC-7x2/SM")
      (MFG.PART.NUMBER "A6SN-7101-P")
      (PACKAGE "Surface Mount low profile")
@@ -542,8 +547,8 @@
    (place U3
     (property 
      (timestamp 00002C5F)
-     (description "3.3V CAN BUS TRANSCEIVER")
      (MANUFACTURER "Texas Instruments")
+     (description "3.3V CAN BUS TRANSCEIVER")
      ("Source Package" SN65HVD233D)
      (MFG.PART.NUMBER SN65HVD233D)
      (PACKAGE "SOIC (8)")
@@ -552,8 +557,8 @@
    (place J7
     (property 
      (timestamp 00006353)
-     (description "2.54mm 4PIN SCREW TERMINAL")
      (MANUFACTURER "On Shore Technology Inc")
+     (description "2.54mm 4PIN SCREW TERMINAL")
      ("Source Package" "CONN PLUG 4")
      (MFG.PART.NUMBER OSTVN04A150)
      (PACKAGE TH)
@@ -562,8 +567,8 @@
    (place U1
     (property 
      (timestamp 0000014B)
-     (description "8BIT MICROCONTROLLER")
      (MANUFACTURER "Microchip Technology")
+     (description "8BIT MICROCONTROLLER")
      ("Source Package" PIC18F57Q84)
      (MFG.PART.NUMBER "PIC18F57Q84T-I/PT")
      (PACKAGE "TQFP(48)")
@@ -1691,7 +1696,7 @@
      (Number 3)
      ("Swap Id" "-1")
      (Type Passive)
-     ("Net Name" ADC_IN)
+     ("Net Name" N25000)
      (Order 2)
      ("Is No Connect" False))))
   (image "TLV766-Q1"
@@ -2334,8 +2339,10 @@
      R21-1 R22-1 RT4-1 R24-2 R25-2 RT5-1 U7-4 C15-2 U8-2
      J8-1))
   (net ADC_IN
+    (property 
+     (IREF 2))
    (pins
-     U1-21 R30-2 C14-2 U8-3))
+     U1-21 R34-2))
   (net B0
    (pins
      U1-36))
@@ -2391,9 +2398,13 @@
    (pins
      U3-6 R14-1))
   (net CAN_RX
+    (property 
+     (IREF 2))
    (pins
      U1-11 U3-4))
   (net CAN_TX
+    (property 
+     (IREF 2))
    (pins
      U1-8 U3-1))
   (net GND
@@ -2413,9 +2424,13 @@
    (pins
      U1-19 J1-4 R5-1))
   (net INE_INT1
+    (property 
+     (IREF 2))
    (pins
      U1-9 U2-11 R10-2))
   (net INE_INT2
+    (property 
+     (IREF 2))
    (pins
      U1-10 U2-9 R11-2))
   (net LBK
@@ -2478,6 +2493,9 @@
   (net N20289
    (pins
      U6-5 RT5-2 C13-2))
+  (net N25000
+   (pins
+     R30-2 C14-2 U8-3 R34-1))
   (net N29223
    (pins
      U9-5 U9-8 C18-1 D4-1 D5-2))
@@ -2494,30 +2512,44 @@
    (pins
      U5-1 R25-1 J5-2))
   (net SCL
+    (property 
+     (IREF 2))
    (pins
      U1-41 U2-4 R8-2))
   (net SDA
+    (property 
+     (IREF 2))
    (pins
      U1-46 U2-6 R9-2))
   (net TX
    (pins
      U5-8 R24-1 J5-1))
   (net UART_OE
+    (property 
+     (IREF 2))
    (pins
      U1-5 U5-6 R23-2))
   (net UART_RX
+    (property 
+     (IREF 2))
    (pins
      U1-43 U5-4))
   (net UART_TX
+    (property 
+     (IREF 2))
    (pins
      U1-42 U5-5))
   (net VCC_SUPPLY
    (pins
      J7-1 RT6-1))
   (net VREF+2.5V
+    (property 
+     (IREF 2))
    (pins
      U1-24 R29-1 U7-6 C16-1))
   (net VREF_EN
+    (property 
+     (IREF 2))
    (pins
      U1-2 U7-3 R31-2))
   (net VSS

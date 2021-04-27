@@ -1,4 +1,4 @@
-power_module  Revised: Sunday, April 11, 2021
+power_module  Revised: Thursday, April 22, 2021
 01          Revision: v1.0
 
 
@@ -7,7 +7,7 @@ power_module  Revised: Sunday, April 11, 2021
 
 
 
-Bill Of Materials          April 11,2021      10:55:38	Page1
+Bill Of Materials          April 22,2021      21:47:20	Page1
 
 Item	Quantity	Reference	Part
 ______________________________________________
@@ -50,13 +50,14 @@ ______________________________________________
 33	1	R30	51E/63mW
 34	1	R32	160K/63mW
 35	1	R33	500K/63mW
-36	1	U1	PIC18F57Q84
-37	1	U2	LIS3DH
-38	1	U3	SN65HVD233D
-39	1	U4	PESD2CANFD24L-T
-40	1	U5	TXB0102
-41	1	U6	AD8605
-42	1	U7	REF3425-Q1
-43	1	U8	BAT54SW
-44	1	U9	TLV766-Q1
-45	1	U10	SML522BU1WT86
+36	1	R34	470R/63mW
+37	1	U1	PIC18F57Q84
+38	1	U2	LIS3DH
+39	1	U3	SN65HVD233D
+40	1	U4	PESD2CANFD24L-T
+41	1	U5	TXB0102
+42	1	U6	AD8605
+43	1	U7	REF3425-Q1
+44	1	U8	BAT54SW
+45	1	U9	TLV766-Q1
+46	1	U10	SML522BU1WT86

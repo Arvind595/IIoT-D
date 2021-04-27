@@ -1,5 +1,6 @@
 (ExpressProject "IIoT"
   (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S008 (3870700) [6/25/2020]-[04/20/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -80,16 +81,28 @@
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "FALSE")
-    (BOM_View_Output "TRUE"))
+    (BOM_View_Output "TRUE")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (Display_Online_DRC_Results "FALSE")
+    (IREFReportFile "C:\ARVIND\ORCAD WORKSPACE\IIOT.csv")
+    (IREFViewOutput "1"))
+  (Folder "Layout")
   (Folder "Outputs"
     (File ".\iiot.net"
       (Type "Report"))
     (File ".\iiot.cmp"
       (Type "Report"))
     (File ".\iiot.bom"
+      (Type "Report"))
+    (File ".\iiot.csv"
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -125,10 +138,6 @@
       (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (TLV766-Q1
       (FullPartName "TLV766-Q1.Normal")
@@ -191,19 +200,20 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\iiot.dsn")
-      (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Design Resources" ".\iiot.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\iiot.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -9 -38 0 200 0 404"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 841"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 32 1620 32 576")
-        (Scroll "-184 0")
+        (Placement "44 0 1 -1 -1 -9 -38 5 1325 26 711")
+        (Scroll "-50 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
@@ -212,8 +222,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 64 1652 64 608")
-        (Scroll "-237 0")
+        (Placement "44 0 1 -1 -1 -9 -38 5 1325 26 711")
+        (Scroll "-103 0")
         (Zoom "91")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
@@ -222,9 +232,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 128 1716 128 672")
-        (Scroll "665 677")
-        (Zoom "364")
+        (Placement "44 0 1 -1 -1 -9 -38 5 1325 26 711")
+        (Scroll "-208 -1")
+        (Zoom "73")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
       (Schematic "SCHEMATIC1")
@@ -232,8 +242,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 160 1748 160 704")
-        (Scroll "-184 0")
+        (Placement "44 0 1 -1 -1 -9 -38 5 1325 26 711")
+        (Scroll "-50 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
@@ -242,9 +252,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 192 1780 192 736")
-        (Scroll "136 121")
-        (Zoom "144")
+        (Placement "44 0 1 -1 -1 -9 -38 5 1325 26 711")
+        (Scroll "141 399")
+        (Zoom "146")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
       (Schematic "SCHEMATIC1")
@@ -252,8 +262,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 224 1812 224 768")
-        (Scroll "-237 0")
+        (Placement "44 0 1 -1 -1 -9 -38 5 1325 26 711")
+        (Scroll "-103 56")
         (Zoom "91")
         (Occurrence "/"))
       (Path "C:\ARVIND\ORCAD WORKSPACE\IIOT.DSN")
@@ -262,8 +272,23 @@
     (Doc
       (Type "TextFile")
       (Frame
-        (Placement "44 0 1 -1 -1 -9 -38 0 1588 0 544"))
+        (Placement "44 0 1 -1 -1 -9 -38 5 1325 26 711"))
       (Path "c:\arvind\orcad workspace\iiot.net")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 2 3 -1 -1 -9 -38 32 1428 32 483"))
+      (Path "c:\arvind\orcad workspace\iiot.csv")
       (Scroll "0")))
   (MPSSessionName "Aravind Anirudh")
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))
